@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Know Your Weather..!!!</h1>
+    </div>
+    <div class="weather">
+        <div class="input-field">
+            <input type="text" class="searchInput" name="searchInput" placeholder="Solapur">
+            <button onclick="search()" class="searchBtn">Search</button>
+        </div>
+        <div class="image">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlWbb1RO7C2HQqLLBILq_I9E6F_Vil3fXV3oluhDw7o08ZjmCu-E9P54h9rfSyDbifxnI&usqp=CAU">
+        </div>
+        <div class="details">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">Pune</h2>
+        </div>
+        <div class="details1">
+            <div class="data">
+                <h2 class="h">40%</h2>
+                <p>Humidity</p>
+            </div>
+            <div class="data">
+                <h2 class="w">10 km/hr</h2>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
